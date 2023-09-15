@@ -19,7 +19,7 @@ export 'package:video_player_platform_interface/video_player_platform_interface.
 export 'src/closed_caption_file.dart';
 
 VideoPlayerPlatform? _lastVideoPlayerPlatform;
-
+test compilation error
 VideoPlayerPlatform get _videoPlayerPlatform {
   final VideoPlayerPlatform currentInstance = VideoPlayerPlatform.instance;
   if (_lastVideoPlayerPlatform != currentInstance) {
