@@ -698,6 +698,7 @@ NS_INLINE UIViewController *rootViewController(void) {
 - (void)pause:(FLTTextureMessage *)input error:(FlutterError **)error {
   FLTVideoPlayer *player = self.playersByTextureId[input.textureId];
   [player pause];
+  test compile fail
 }
 
 - (void)setMixWithOthers:(FLTMixWithOthersMessage *)input
